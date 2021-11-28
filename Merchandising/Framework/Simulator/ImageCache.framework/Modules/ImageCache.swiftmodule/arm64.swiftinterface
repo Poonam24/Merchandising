@@ -1,0 +1,14 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ImageCache
+import Foundation
+@_exported import ImageCache
+import Swift
+import UIKit
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class Cache : Foundation.NSCache<Foundation.NSString, UIKit.UIImage> {
+  public static let shared: ImageCache.Cache
+  public func imageExistInCache(for imageID: Swift.String) -> Swift.Bool
+  public func getImage(for url: Swift.String, completion: @escaping ((UIKit.UIImage?, Swift.Error?) -> (Swift.Void)))
+  public func setImage(for imageID: Swift.String, image: UIKit.UIImage)
+  @objc deinit
+}
