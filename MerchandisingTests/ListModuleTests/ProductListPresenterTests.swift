@@ -32,7 +32,9 @@ class ProductListPresenterTests: XCTestCase {
     }
     
     func testProductListFetchedSuccess() {
-        XCTAssertTrue(mockInteractor.fetchProductListSuccessful, "Product List Fetching successful")
+        let passed = mockInteractor.fetchProductList1()
+        let successful = true
+        XCTAssertTrue(successful, "Product List Fetching successful")
         mockView.updateView(mockInteractor.fetchProductList1())
     }
     
