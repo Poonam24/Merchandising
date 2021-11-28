@@ -12,6 +12,7 @@ Common Codes are moved to common files
 # App-Module 
 1. List Module 
 Module uses viper architecture and SOLID principle to segreate the responsibility
+Makes network call to fetch the list of product. 
 2. Detaile Module 
 Simple module to display the selected product details
 
@@ -43,6 +44,9 @@ Screenshots from couple of devices
 ![Simulator Screen Shot - iPhone SE (2nd generation) - 2021-11-25 at 23 13 04](https://user-images.githubusercontent.com/4199763/143764527-8ff1d00e-b3e0-4b70-a4c1-72ea11e09d1b.png)
 
 ![Simulator Screen Shot - iPhone SE (2nd generation) - 2021-11-26 at 20 22 42](https://user-images.githubusercontent.com/4199763/143764533-597df536-600b-4f68-ab9d-922bbaddebdd.png)
+
+![Simulator Screen Shot - iPhone 11 - 2021-11-28 at 16 10 47](https://user-images.githubusercontent.com/4199763/143764584-c6549b34-02a5-4f43-b131-38b94ef09d2f.png)
+![Simulator Screen Shot - iPhone 11 - 2021-11-28 at 16 12 48](https://user-images.githubusercontent.com/4199763/143764600-6a403078-904b-4382-b3b2-a9b419d58aee.png)
 
 
 
